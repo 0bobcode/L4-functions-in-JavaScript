@@ -41,3 +41,10 @@ console.log(division(897386))
 
 
 // create a function expression for multiplication
+let multiply = function(numb1, numb2) {
+    console.log(numb1 * numb2)
+    let result = numb1 * numb2
+return result
+}
+//function call for multiplacation
+multiply(8,7)
